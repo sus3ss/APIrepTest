@@ -14,6 +14,7 @@ public enum APIResources {
 	
 	public String getResource()
 	{
+		system.out.println("test");
 		return resource;
 	}
 	
