@@ -12,11 +12,11 @@ Multiparts:		<none>
 Body:
 {
     "accuracy": 50,
-    "name": "Sushanth",
+    "name": "AAhouse",
     "phone_number": "(+91) 983 893 3937",
-    "address": "Asia",
+    "address": "World cross center",
     "website": "https://rahulshettyacademy.com",
-    "language": "French",
+    "language": "English",
     "location": {
         "lat": -38.383494,
         "lng": 33.427362
@@ -27,7 +27,7 @@ Body:
     ]
 }
 HTTP/1.1 200 OK
-Date: Wed, 06 Jan 2021 05:39:15 GMT
+Date: Fri, 05 Feb 2021 17:32:02 GMT
 Server: Apache/2.4.18 (Ubuntu)
 Access-Control-Allow-Origin: *
 Access-Control-Allow-Methods: POST
@@ -40,17 +40,17 @@ Content-Type: application/json;charset=UTF-8
 
 {
     "status": "OK",
-    "place_id": "9ea8f21391bb1b5691f55dfb1526f3a7",
+    "place_id": "0d5816487a3fb8c2269b1bec7f734029",
     "scope": "APP",
-    "reference": "c7a8ca34df2da23870d3f9384aaf90d9c7a8ca34df2da23870d3f9384aaf90d9",
-    "id": "c7a8ca34df2da23870d3f9384aaf90d9"
+    "reference": "00189a64a9b35a1097aa49bd2f78124700189a64a9b35a1097aa49bd2f781247",
+    "id": "00189a64a9b35a1097aa49bd2f781247"
 }
 Request method:	GET
-Request URI:	https://rahulshettyacademy.com/maps/api/place/get/json?key=qaclick123&place_id=9ea8f21391bb1b5691f55dfb1526f3a7
+Request URI:	https://rahulshettyacademy.com/maps/api/place/get/json?key=qaclick123&place_id=0d5816487a3fb8c2269b1bec7f734029
 Proxy:			<none>
 Request params:	<none>
 Query params:	key=qaclick123
-				place_id=9ea8f21391bb1b5691f55dfb1526f3a7
+				place_id=0d5816487a3fb8c2269b1bec7f734029
 Form params:	<none>
 Path params:	<none>
 Headers:		Accept=*/*
@@ -59,13 +59,13 @@ Cookies:		<none>
 Multiparts:		<none>
 Body:			<none>
 HTTP/1.1 200 OK
-Date: Wed, 06 Jan 2021 05:39:16 GMT
+Date: Fri, 05 Feb 2021 17:32:03 GMT
 Server: Apache/2.4.18 (Ubuntu)
 Access-Control-Allow-Origin: *
 Access-Control-Allow-Methods: POST
 Access-Control-Max-Age: 3600
 Access-Control-Allow-Headers: Content-Type, Access-Control-Allow-Headers, Authorization, X-Requested-With
-Content-Length: 239
+Content-Length: 253
 Keep-Alive: timeout=5, max=100
 Connection: Keep-Alive
 Content-Type: application/json;charset=UTF-8
@@ -76,12 +76,12 @@ Content-Type: application/json;charset=UTF-8
         "longitude": "33.427362"
     },
     "accuracy": "50",
-    "name": "Sushanth",
+    "name": "AAhouse",
     "phone_number": "(+91) 983 893 3937",
-    "address": "Asia",
+    "address": "World cross center",
     "types": "shoe park,shop",
     "website": "https://rahulshettyacademy.com",
-    "language": "French"
+    "language": "English"
 }
 Request method:	POST
 Request URI:	https://rahulshettyacademy.com/maps/api/place/delete/json?key=qaclick123
@@ -96,10 +96,10 @@ Cookies:		<none>
 Multiparts:		<none>
 Body:
 {
-    "place_id": "9ea8f21391bb1b5691f55dfb1526f3a7"
+    "place_id": "0d5816487a3fb8c2269b1bec7f734029"
 }
 HTTP/1.1 200 OK
-Date: Wed, 06 Jan 2021 05:39:18 GMT
+Date: Fri, 05 Feb 2021 17:32:04 GMT
 Server: Apache/2.4.18 (Ubuntu)
 Access-Control-Allow-Origin: *
 Access-Control-Allow-Methods: POST
