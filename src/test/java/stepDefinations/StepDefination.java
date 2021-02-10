@@ -47,6 +47,7 @@ public void user_calls_with_http_request(String resource, String method) {
 //constructor will be called with value of resource which you pass
 		APIResources resourceAPI=APIResources.valueOf(resource);
 		System.out.println(resourceAPI.getResource());
+		System.out.println("test");
 		
 		
 		resspec =new ResponseSpecBuilder().expectStatusCode(200).expectContentType(ContentType.JSON).build();
