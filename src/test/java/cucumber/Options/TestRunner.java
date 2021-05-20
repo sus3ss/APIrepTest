@@ -8,4 +8,7 @@ import io.cucumber.junit.CucumberOptions;
 @CucumberOptions(features="src/test/java/features",plugin ="json:target/jsonReports/cucumber-report.json",glue= {"stepDefinations"},tags= "@Regression")
 public class TestRunner {
 //tags= {"@DeletePlace"}  compile test verify
+	//Test
+	
+	
 }
